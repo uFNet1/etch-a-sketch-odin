@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+html,
+body,
+#app,
+#blocks-container {
+  /* width: 100%; */
+  width: 900px;
+  height: 900px;
+}
+
+
+#blocks-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-row {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin-block: 2px;
+}
+
+.block {
+  width: 100%;
+  height: 99%;
+  outline: 1px solid black;
+
+}
+
+.block:hover {
+  background-color: red;
+}
+
+.painted {
+  background-color: red;
+}
