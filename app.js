@@ -47,6 +47,8 @@ function generateGrid(size) {
           if (changeOpacityBtn.textContent === "Progressive") {
             block.style.opacity = `${currentOpacity}%`;
             if (currentOpacity < 100) currentOpacity += 10;
+          } else if (changeOpacityBtn.textContent === "Fully opaque") {
+            block.style.opacity = "100%";
           }
         }
       });
